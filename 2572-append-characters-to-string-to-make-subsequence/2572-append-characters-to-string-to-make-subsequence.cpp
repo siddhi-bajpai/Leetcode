@@ -6,11 +6,9 @@ public:
         int i=0, j=0;
         while(i<slen && j<tlen){
             if(s[i]==t[j]){
-                i++;j++;
+                j++;
             }
-            else{
                 i++;
-            }
         }
         return (tlen-j);
     }
