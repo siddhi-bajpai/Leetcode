@@ -1,15 +1,15 @@
 class Solution {
 public:
     int appendCharacters(string s, string t) {
-        int slen=s.length();
-        int tlen=t.length();
-        int i=0, j=0;
-        while(i<slen && j<tlen){
-            if(s[i]==t[j]){
-                j++;
-            }
-                i++;
+        int m = s.size();
+        int n = t.size();
+        
+        int i = 0, j = 0;
+        while (i < m && j < n) {
+            if (s[i] == t[j]) j++;
+            i++;
         }
-        return (tlen-j);
+        
+        return n - j;
     }
 };
