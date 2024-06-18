@@ -12,7 +12,8 @@ public:
         sort(begin(worker), end(worker));
         for(int work : worker) {
             while(work >= temp[j].first && j < worker.size()) {
-                best = max(best, temp[j++].second);
+                best = max(best, temp[j].second);
+                j++;
             }
             
             res += best;
