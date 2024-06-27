@@ -96,3 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0853-most-profit-assigning-work](https://github.com/siddhi-bajpai/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/siddhi-bajpai/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/siddhi-bajpai/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
+# Graph
+|  |
+| ------- |
+| [1916-find-center-of-star-graph](https://github.com/siddhi-bajpai/Leetcode/tree/master/1916-find-center-of-star-graph) |
